@@ -74,8 +74,11 @@ img {
 
 @media screen and (max-width: 420px)  {
 
+  img {
+    height: 100px;
+  }
   #lezioni {
-    width: 420px;
+    width: 100%;
   }
   .row {
     width: 100%;
@@ -86,7 +89,10 @@ img {
     width: 100%;
     float: left;
   }
-   img {
-    height: 100px;
-  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    width: 100%;
+    float: left;
 }
